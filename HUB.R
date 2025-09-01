@@ -14,7 +14,8 @@ library(caret)
 library(janitor)
 library(mice)
 library(ggplot2)
-# Reading the file
+
+#Reading the file
 
 
 getwd()
@@ -78,12 +79,6 @@ pl_data <- pl_data %>%
 
 
 nrow(pl_data)
-
-287594 -265761
-
-265486-265761
-
-238261/287594
 
 
 
@@ -159,7 +154,7 @@ pl_data_tst <- pl_data  %>%
   
   str(pl_data_tst)
   
-  97800 -96785
+ 
   
 
   # Checking count of missing values for Lic_susp_6yr,Insurance_Cancellation_3yr,Misrepresented where value='NA' and policy='Auto'
